@@ -1,0 +1,30 @@
+{
+  "name": "Swiggy-Landing-Page-Clone",
+  "version": "1.0.0",
+  "description": "Build a clone of Swiggy Landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantharcot/Swiggy-Landing-Page-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishantharcot/Swiggy-Landing-Page-Clone/issues"
+  },
+  "homepage": "https://github.com/nishantharcot/Swiggy-Landing-Page-Clone#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.24.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
