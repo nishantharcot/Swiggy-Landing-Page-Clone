@@ -12,14 +12,23 @@
 }
 
 .loginSignup {
-  left: 15vw;
+  width: 5vw;
+  left: 20vw;
   top: 2vh;
 }
 
+#signupButton {
+  width: 5vw;
+}
+
+#swiggyText {
+  color: orange;
+  font-family: 'Baloo 2', cursive;
+}
+
 #row1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 10fr 20fr 30fr 15fr 15fr 10fr;
   grid-column: 2;
   grid-row: 2;
 }
@@ -36,11 +45,12 @@
 
 #row4 {
   grid-column: 2;
-  grid-row: 8;
+  grid-row: 8 / 10;
+  grid-gap: 5vh;
 }
 
 .input {
-  width: 70% !important;
+  width: 75% !important;
 }
 
 #foodImage {
@@ -48,8 +58,43 @@
   background-size: cover;
 }
 
-#row1 {
-  display: grid;
-  grid-template-columns: 10fr 20fr 30fr 15fr 15fr 10fr;
+#city {
+  display: flex;
+  justify-content: space-between;
+  top: 4vh !important; 
 }
 
+#changingText {
+  font-weight: bold;
+}
+
+.screen2 {
+  display: grid !important;
+  grid-template-columns: 5fr 20fr 15fr 20fr 15fr 20fr 5fr;
+  grid-template-rows: 50fr 10fr 20fr 20fr;
+  background-color: darkslategrey;
+  height: 60vh;
+}
+
+#s2col1 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#s2col2 {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+#s2col3 {
+  grid-column: 6;
+  grid-row: 3;
+}
+
+.s2Text {
+  color: white;
+}
+
+.screen3 {
+  height: 90vh;
+}

@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,13 +18,13 @@
       <div class="heroBody">
 
         <div id="row1">
-          <h1 class="is-size-2">
+          <h1 id="swiggyText" class="is-size-2">
             SWIGGY
           </h1>
-          <button class="loginSignup button is-dark">
+          <button id="loginButton" class="loginSignup button">
             Login
           </button>
-          <button class="loginSignup button is-black">
+          <button id="signupButton" class="loginSignup button is-black">
             Sign up
           </button>
         </div>
@@ -50,6 +52,16 @@
           <div class="is-size-6">
             POPULAR CITIES IN INDIA
           </div>
+          <div id="city">
+            <div>Ahmedabad</div>
+            <div>Bangalore</div>
+            <div>Chennai</div>
+            <div>Delhi</div>
+            <div>Gurgauon</div>
+            <div>Hyderabad</div>
+            <div>Kolkata</div>
+            <div>Mumbai</div>
+          </div>
         </div>
 
       </div>
@@ -57,5 +69,46 @@
       <div id="foodImage">
       </div>
     </section>
+
+    <section class="hero screen2 is-medium">
+      <div id="s2col1">
+        <h1 class="s2Text is-size-4">
+          No Minimum Order
+        </h1>
+        <p class="s2Text">
+          Order in for yourself or for the group, with no restrictions on order value
+        </p>
+      </div>
+      <div id="s2col2">
+        <h1 class="s2Text is-size-4">
+          Live Order Tracking
+        </h1>
+        <p class="s2Text">
+          Know where your order is at all times, from the restaurant to your doorstep
+        </p>
+      </div>
+      <div id="s2col3">
+        <h1 class="s2Text is-size-4">
+          Lightning-Fast Delivery
+        </h1>
+        <p class="s2Text">
+          Experience Swiggy's superfast delivery for food delivered fresh & on time
+        </p>
+      </div>
+    </section>
+
+    <section class="hero screen3 is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Medium title
+          </h1>
+          <h2 class="subtitle">
+            Medium subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+
   </body>
 </html>
